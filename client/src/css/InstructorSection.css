@@ -1,0 +1,59 @@
+.instructormaindiv {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: center;
+}
+
+.instructormaindivInsideOne {
+}
+.instructormaindivInsideOneImg {
+  box-shadow: -20px -20px 0px 0px white;
+}
+
+.instructormaindivInsideTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* Equivalent to gap-10 */
+}
+
+
+.instructormaindivInsideTwoHead{
+
+
+      font-size: 36px; /* Equivalent to text-4xl */
+  font-weight: 600; /* Equivalent to font-semibold */
+}
+
+.instructor-text {
+  font-weight: 500; /* Equivalent to font-medium */
+  font-size: 16px;
+  text-align: justify;
+  width: 90%;
+  color: #9ca3af; /* Adjust based on actual richblack-300 color */
+}
+.instructorBtnDiv{
+
+    width: fit-content;
+}
+
+@media (min-width: 1024px) {
+  /* lg: breakpoint */
+  .instructormaindiv {
+    flex-direction: row;
+  }
+
+  .instructormaindivInsideOne {
+    width: 50%;
+  }
+
+  .instructormaindivInsideTwo {
+    width: 50%;
+  }
+
+  
+.instructormaindivInsideTwoHead{
+    width: 50%;
+
+}
+}

@@ -1,0 +1,77 @@
+.learninglanguagediv {
+  font-size: 32px; /* Equivalent to text-4xl */
+  font-weight: 600; /* Equivalent to font-semibold */
+  text-align: center;
+  margin: 40px 0; /* Equivalent to my-10 */
+}
+
+.learning-description {
+  text-align: center;
+  color: #4a4a4a; /* Equivalent to richblack-700 */
+  font-weight: 500; /* Equivalent to font-medium */
+  max-width: 75%;
+  margin: 0 auto;
+  line-height: 1.5; /* Equivalent to leading-6 */
+  font-size: 16px; /* Equivalent to text-base */
+  margin-top: 12px; /* Equivalent to mt-3 */
+}
+
+.learning-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px; /* Equivalent to mt-8 */
+}
+
+.image-progress,
+.image-compare,
+.image-plan {
+  object-fit: contain;
+}
+
+.image-compare {
+  margin-top: -48px; /* Equivalent to -mt-12 */
+}
+
+.image-plan {
+  margin-top: -64px; /* Equivalent to -mt-16 */
+}
+
+/* Responsive styles */
+@media (min-width: 1024px) {
+  /* lg: breakpoint */
+  .learning-images {
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  .image-progress {
+    margin-right: -128px; /* Equivalent to lg:-mr-32 */
+  }
+
+  .image-compare {
+    margin-bottom: -40px; /* Equivalent to lg:-mb-10 */
+    margin-top: 0;
+  }
+
+  .image-plan {
+    margin-left: -144px; /* Equivalent to lg:-ml-36 */
+    margin-top: -20px; /* Equivalent to lg:-mt-5 */
+  }
+}
+
+.learningBtns {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px; /* Default: mb-8 */
+  margin-top: -20px; /* -mt-5 */
+}
+
+@media (min-width: 1024px) {
+  /* lg: breakpoint */
+  .learningBtns {
+    margin-bottom: 80px; /* lg:mb-20 */
+  }
+}

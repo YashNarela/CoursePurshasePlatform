@@ -1,0 +1,76 @@
+.ExploreMainHeading{
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+
+}
+
+.ExploreMainPara{
+
+
+      font-size: 1.125rem;
+      color: #838894;
+
+      font-weight: 400;
+      margin-top: 12px;
+      text-align: center;
+
+}
+
+.ExploreMainTab{
+
+    margin: 4px;
+
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    border-radius: 50%;
+      padding-left: 1.75rem;  /* 7 * 0.25rem = 1.75rem (28px) */
+  padding-right: 1.75rem;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 9999px; /* Fully rounded */
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+
+}
+
+.ExploreMainTab:hover{
+
+
+     background-color: #0f0f0f; 
+  color: #f5f5f5; /
+}
+
+
+.ExploreMainTabOuter{
+
+
+    display: flex;
+    background-color: #2C333F;
+    border-radius: 12px;
+
+    padding: 0px 4px;
+
+    margin-bottom: 2rem;
+}
+
+.hidden-div {
+  display: none;
+}
+
+
+
+
+
+@media (min-width: 1024px) { /* Tailwind's lg breakpoint */
+  .hidden-div {
+    display: block;
+    height: 200px;
+  }
+}
+
+

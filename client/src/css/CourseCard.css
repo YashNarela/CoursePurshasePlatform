@@ -1,0 +1,61 @@
+.CourseCardMain {
+  width: 360px;
+  height: 300px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #0f0f0f; /* richblack-800 */
+  color: #e5e5e5; /* richblack-25 */
+  transition: all 0.3s ease-in-out;
+}
+
+.CourseCardMain.active {
+  background-color: white;
+  box-shadow: 12px 12px 0 0 #fffbcc; /* yellow-50 */
+}
+
+@media (min-width: 1024px) { /* Tailwind lg breakpoint */
+  .CourseCardMain {
+    width: 30%;
+  }
+}
+
+.CourseCardContent {
+  height: 80%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-bottom: 2px dashed #666666; /* richblack-400 */
+}
+
+.CourseCardTitle {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.CourseCardTitle.active {
+  color: #0f0f0f; /* richblack-800 */
+}
+
+.CourseCardDescription {
+  color: #666666; /* richblack-400 */
+}
+
+.CourseCardFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px;
+  font-weight: 500;
+  color: #999999; /* richblack-300 */
+}
+
+.CourseCardFooter.active {
+  color: #93c5fd; /* blue-300 */
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
