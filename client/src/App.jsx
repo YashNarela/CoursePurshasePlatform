@@ -8,6 +8,7 @@ import Insert from './Pages/Insert';
 import Display from './Pages/Display';
 import Login from './Pages/Login';
 import Logout from './Pages/Logout';
+import { ToastContainer, toast } from 'react-toastify';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,8 @@ function App() {
 
             <Route index element={<Home />} />
             <Route path='home' element={<Home />} />
+            <Route path='contact' element={<Home />} />
+
             <Route path='insert' element={<Insert />} />
             <Route path='display' element={<Display />} />
             <Route path='login' element={<Login />} />
@@ -33,7 +36,8 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-
+      
+      <ToastContainer />
 
     </>
   )

@@ -35,6 +35,12 @@ const schema = new mongoose.Schema({
   image: {
     type: String,
   },
+  token: {
+    type: String,
+  },
+  resetPasswordExpires: {
+    type: Date,
+  },
   courses: [
     {
       type: mongoose.Schema.Types.ObjectId,

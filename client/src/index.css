@@ -11,6 +11,7 @@
 }
 
 .homyMainOuter {
+  padding-top: 1rem;
   height: max-content;
   background-color: #000814;
 }
@@ -276,7 +277,7 @@
 .timeLineBox {
   display: flex;
   gap: 1rem;
-justify-content: center;
+  justify-content: center;
   align-items: center;
 }
 .timelineInsideBox1 {
@@ -284,16 +285,10 @@ justify-content: center;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-
 }
 
 .timelineInsideBox2 {
-
-
-  
 }
-
-
 
 .timelinesectionsdiv {
   display: flex;
@@ -333,7 +328,8 @@ justify-content: center;
   background-color: rgba(23, 23, 23, 0); /* richblack-400/0 */
 }
 
-@media (min-width: 1024px) { /* lg: breakpoint */
+@media (min-width: 1024px) {
+  /* lg: breakpoint */
   .timelinesectionsdiv {
     gap: 12px; /* Equivalent to lg:gap-3 */
   }
@@ -341,9 +337,6 @@ justify-content: center;
     display: block;
   }
 }
-
-
-
 
 .timelineInsideBox2 {
   position: relative;
@@ -415,10 +408,8 @@ justify-content: center;
   }
 }
 
-
-.section3Instruction{
-
-   position: relative;
+.section3Instruction {
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   margin-top: 80px;
@@ -433,8 +424,7 @@ justify-content: center;
   background-color: #0f0f0f; /* Rich black */
   color: white;
 }
-.reviewh1{
-
+.reviewh1 {
   text-align: center;
   font-size: 36px;
   font-weight: 600;

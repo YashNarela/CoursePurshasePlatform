@@ -1,0 +1,79 @@
+.NavbarOuterDiv{
+
+height: 54px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-bottom: 1px solid #2C333F;
+    background-color: #000814;
+    color: white;
+
+}
+
+
+.NavbarContainer{
+
+
+    display: flex;
+    width: 91.33%;
+    max-width: 1260px;
+    align-items: center;
+    justify-content: space-between;
+    
+
+
+}
+
+.NavLink{
+
+    text-decoration: none;
+  color: white;
+}
+
+.NavbarContainerInnerDiv2{
+
+display: flex;
+gap: 24px;
+}
+
+
+.NavbarContainerInnerDiv3{
+
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+
+
+    
+}
+
+.navbarinnerdivspan {
+  position: absolute;
+  bottom: -8px; /* Equivalent to -bottom-2 (2 * 4px = 8px) */
+  right: -8px; /* Equivalent to -right-2 */
+  display: grid;
+  height: 20px; /* Equivalent to h-5 */
+  width: 20px; /* Equivalent to w-5 */
+  place-items: center;
+  overflow: hidden;
+  border-radius: 50%; /* Equivalent to rounded-full */
+  background-color: #121212; /* Replace with actual rich black 600 color */
+  text-align: center;
+  font-size: 12px; /* Equivalent to text-xs */
+  font-weight: bold; /* Equivalent to font-bold */
+  color: #fff6d5; /* Equivalent to text-yellow-100 */
+}
+
+.navbarinnerdivcarticons{
+
+      font-size: 1.5rem; /* Equivalent to text-2xl */
+  color: #f3f3f3; 
+}
+
+.NavbarLoginCss {
+  border-radius: 8px; /* Equivalent to rounded-[8px] */
+  border: 1px solid #2a2a2a; /* Replace with actual rich black 700 color */
+  background-color: #1e1e1e; /* Replace with actual rich black 800 color */
+  padding: 8px 12px; /* Equivalent to py-[8px] and px-[12px] */
+  color: #f3f3f3; /* Replace with actual rich black 100 color */
+}

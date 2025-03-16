@@ -9,7 +9,13 @@ import TimeLineSection from './TimeLineSection'
 import LearningLanguageSection from './LearningLanguageSection'
 import InstructorSection from './InstructorSection'
 import ExploreMore from './ExploreMore'
+
 const Home = () => {
+
+
+
+
+
   return (
     <div className='homyMainOuter' >
 
